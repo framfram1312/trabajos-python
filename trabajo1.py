@@ -37,6 +37,8 @@ palabra_actual = random.sample(diccionario[categoria], palabras)
 
 termine = "no"
 
+# Mientras no termine y no me quede sin palabras sigo jugando
+
 while (termine == "no") and (palabras > 0):
     
     
