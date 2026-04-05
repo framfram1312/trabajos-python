@@ -10,10 +10,11 @@ cd tu-repositorio
 python -m venv venv
 venv\Scripts\activate *(solo para Windows)
 ---------------------------------
-# Instale los requisitos y jupyter:
+# Instale los requisitos y jupyter, junto con ipykernel:
 
 pip install -r requirements.txt
 pip install jupyter
+pip install ipykernel
 ---------------------------------
 # Abra jupyter:
 
